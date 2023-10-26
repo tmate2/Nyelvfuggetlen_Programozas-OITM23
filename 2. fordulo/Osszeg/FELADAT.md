@@ -1,0 +1,5 @@
+# Összeg
+
+Adott egész számoknak egy sorozata. Szeretnénk eldönteni, hogy léteznek-e olyan i és j indexek, hogy a sorozat i-ediktől j-edikig terjedő elemeit (a j-edik elemet is beleértve) összeadva pontosan annyi lesz az eredmény, mint a sorozat j+1-edik eleme.
+
+A bemenet egyetlen sorból áll, melyben szóközökkel elválasztva N db egész szám található, a sorozat elemei. Ha nem létezik a megadott tulajdonsággal rendelkező összefüggő részsorozat, akkor a kimenet a NINCS szó legyen (csupa nagybetűvel). Ha létezik ilyen összefüggő részsorozat, akkor a kimenet ennek a részsorozatnak az első ill. utolsó elemének indexe legyen (azaz i és j értéke), szóközzel elválasztva. (Az elemeket 0-tól N-1-ig számozzuk.) Ha több megfelelő részsorozat is van, akkor annak az első ill. utolsó indexét kell kiírni, amely legelőbb kezdődik (azaz kezdőindexe a lehető legkisebb); és ha több ilyen is van, ugyanazzal a kezdőindexszel, akkor ezek közül azt kell választani, amely a legelőbb végződik (azaz utolsó indexe a lehető legkisebb).
