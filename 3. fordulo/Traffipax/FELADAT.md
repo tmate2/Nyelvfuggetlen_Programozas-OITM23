@@ -1,0 +1,9 @@
+# Traffipax
+
+Egy városban N db gyorshajtó száguldozik rendszeresen a város egyik (egyirányú) hídján. A rendőrség szeretné megvédeni tőlük a normálisan közlekedő embereket, így eldöntötték, hogy kiállnak a híd közepére mérni, hogy bizonyítékot szerezhessenek az elkövetőkről. Sajnos csak egy K másodperces intervallumban tudnak mérni. Azt a gyorshajtót mérik be, aki ebben a K másodperces időintervallumban elhalad a híd közepén álló kamera mellett (az időintervallum két végpontjában is mér a kamera, tehát zárt intervallumnak tekinthető). A rendőrség fülest kapott arról, hogy mindegyik gyorshajtó mindennap pontosan ugyanakkor halad át a híd közepső pontján (de gyorshajtónként más-más lehet ez az időpont). A rendőrök arra kíváncsiak, hogy maximum hány db gyorshajtót tudnak fogni, ha optimális időpontban állnak ki mérni. Segítsünk nekik!.
+
+A bemenet N+1 db sorból áll. Az első sorban N (a gyorshajtók száma) és K (a mérési intervallum hossza másodpercben) található, szóközzel elválasztva. A további N db sor mindegyikében 3 db, szóközzel elválasztott szám található: az az óra, perc és másodperc, amikor az adott gyorshajtó mindennap áthalad a híd közepén. Pl. "2 6 13" azt jelenti, hogy az adott gyorshajtó mindennap pontosan hajnali 02:06:13-kor fog elhaladni a kamera előtt, már ha akkor éppen mérnek a rendőrök. A híd több sávos, tehát ugyanabban a pillanatban több gyorshajtó is érkezhet. Ha ilyenkor kint van a kamera, mindegyiküknek megy a csekk.
+A kimenet 1 db szám legyen: a maximálisan megbüntethető gyorshajtók száma.
+
+Megjegyzés: : a rendőrök természetesen éjfélt átszelő intervallumban is tudnak mérni! Így pl. ha K = 120, akkor a 23:00-tól másnap 1:00-ig terjedő intervallum is megfelel a számukra. Ebben az esetben pl. elkapják a 23:00:00 és 1:00:00 paraméterekkel rendelkező gyorshajtókat is.
+
